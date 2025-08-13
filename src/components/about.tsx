@@ -51,14 +51,16 @@ export default function About() {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    I am an Experienced Video Editor with over 2 years in the
-                    industry, specializing in creating compelling visual content
-                    across various platforms with various clients &
-                    organizations having an expertise around social media
-                    content. You can rely on me for your projects. I excel in
-                    various editing styles, delivering high-value content that
-                    is cost-effective. Let's schedule a meeting and get on to
-                    working together.
+                    I am a professional video editor with expertise in Adobe
+                    Premiere Pro, After Effects, DaVinci Resolve, and CapCut. I
+                    specialize in creating visually captivating, high-quality
+                    videos that engage audiences and elevate brands. From
+                    cinematic storytelling to dynamic social media content, I
+                    ensure every project is crafted with precision, creativity,
+                    and attention to detail. My goal is to bring your vision to
+                    life and deliver results that exceed expectations. Let’s
+                    create videos that don’t just tell stories — they make an
+                    impact
                   </p>
                 </Fade>
                 <Fade
