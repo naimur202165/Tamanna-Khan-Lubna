@@ -51,7 +51,7 @@ export default function About() {
                   triggerOnce={true}
                 >
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
-                    I am an Experienced Video Editor with over 4 years in the
+                    I am an Experienced Video Editor with over 2 years in the
                     industry, specializing in creating compelling visual content
                     across various platforms with various clients &
                     organizations having an expertise around social media
@@ -68,7 +68,7 @@ export default function About() {
                   damping={1e-1}
                   triggerOnce={true}
                 >
-                  <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
+                  {/* <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
                     <strong>
                       I am currently working in collaboration with{" "}
                       <a
@@ -82,7 +82,7 @@ export default function About() {
                       </a>
                       !
                     </strong>
-                  </p>
+                  </p> */}
                   <p className="mt-2 leading-relaxed text-sm text-gray-700 dark:text-white/70">
                     <strong>Key responsibilities :</strong>
                   </p>
@@ -168,7 +168,7 @@ export default function About() {
                 1M, 200K, and 50K subscribers. Expanded several Instagram pages
                 while working alongside my clients.
               </p>
-              <p className="text-lg sm:text-xl leading-relaxed text-gray-700 dark:text-white/70 max-w-3xl mx-auto mb-4 text-center">
+              {/* <p className="text-lg sm:text-xl leading-relaxed text-gray-700 dark:text-white/70 max-w-3xl mx-auto mb-4 text-center">
                 • Worked for{" "}
                 <a
                   href="https://krafton.in/"
@@ -176,10 +176,10 @@ export default function About() {
                   rel="noopener noreferrer"
                   className="text-blue-500 underline"
                 >
-                  Krafton India
+                 Digital
                 </a>
                 , in a team project.
-              </p>
+              </p> */}
 
               <p className="text-lg sm:text-xl leading-relaxed text-gray-700 dark:text-white/70 max-w-3xl mx-auto">
                 • Established my digital presence with 4K+ subscribers on

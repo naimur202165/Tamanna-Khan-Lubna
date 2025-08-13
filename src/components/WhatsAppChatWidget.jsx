@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
 import "./custom-styles.css"; // Import the custom CSS file
@@ -7,7 +6,7 @@ import "./custom-styles.css"; // Import the custom CSS file
 const ReactApp = () => {
   return (
     <WhatsAppWidget
-      phoneNo="+918653749345"
+      phoneNo="+880 01705153477"
       position="right"
       widgetWidth="300px"
       widgetWidthMobile="260px"

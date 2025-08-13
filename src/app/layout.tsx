@@ -1,19 +1,19 @@
+import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
+import ThemeSwitch from "@/components/theme-controller";
+import Providers from "@/containers/providers";
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
-import Providers from "@/containers/providers";
-import Footer from "@/components/footer";
-import ThemeSwitch from "@/components/theme-controller";
-import Navbar from "@/components/navbar";
 
-const sora = Sora({ 
+const sora = Sora({
   subsets: ["latin"],
-  variable: '--font-sora',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800'], 
+  variable: "--font-sora",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
-  title: "Suvajit Sen",
+  title: "Tamanna Khan Lubna",
   description: "Personal portfolio",
 };
 
