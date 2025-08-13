@@ -72,7 +72,8 @@ export default function About() {
                     <strong>
                       I am currently working in collaboration with{" "}
                       <a
-                        href="https://www.instagram.com/legacybuildingmedia/"
+                        href="hhttps://www.instagram.com/tamannakhanlubna/?next=%2F&hl=en
+"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-500 underline"

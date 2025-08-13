@@ -1,16 +1,14 @@
 "use client";
-import Image from "next/image";
-import React from "react";
-import { motion } from "framer-motion";
-import { Fade } from "react-awesome-reveal";
-import Link from "next/link";
-import { BsLinkedin } from "react-icons/bs";
-import { BsYoutube } from "react-icons/bs";
-import { BiLogoInstagramAlt } from "react-icons/bi";
-import { HiDownload } from "react-icons/hi";
-import { useSectionInView } from "@/lib/useInView";
 import { useActiveSectionContext } from "@/containers/active-section";
+import { useSectionInView } from "@/lib/useInView";
+import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
+import { BiLogoInstagramAlt } from "react-icons/bi";
+import { BsLinkedin, BsYoutube } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
 
 export default function Intro() {
   const { ref } = useSectionInView("#home", 0.5);
@@ -43,7 +41,7 @@ export default function Intro() {
               priority={true}
               className="rounded-[20px] object-cover shadow-xl"
             />
-          </motion.div> 
+          </motion.div>
 
           <motion.span
             className="text-6xl absolute bottom-8 right-12"
@@ -61,17 +59,22 @@ export default function Intro() {
         </div>
       </div>
 
-      <Fade direction="up" delay={400} cascade damping={1e-1} triggerOnce={true}>
-      <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
-      <span className="font-bold !leading-[1.5] font-small">"Crafting Stories, Frame by Frame."</span>{" "}
-  <p className="text-[9px]">
-  Shaping Visual Narratives, One Frame at a Time.
-  </p>
-</h1>
-
+      <Fade
+        direction="up"
+        delay={400}
+        cascade
+        damping={1e-1}
+        triggerOnce={true}
+      >
+        <h1 className="mb-10 mt-4 px-4 text-2xl sm:text-4xl">
+          <span className="font-bold !leading-[1.5] font-small">
+            "Crafting Stories, Frame by Frame."
+          </span>{" "}
+          <p className="text-[9px]">
+            Shaping Visual Narratives, One Frame at a Time.
+          </p>
+        </h1>
       </Fade>
-
-      
 
       <motion.div
         className="flex sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
@@ -82,7 +85,7 @@ export default function Intro() {
         }}
       >
         <Link
-         href="mailto:work.suvajit26@gmail.com"
+          href="mailto:work.tamannakhanlubna016@gmail.com"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 dark:bg-white/10 active:scale-105 transition"
           onClick={() => {
             setActiveSection("#contact");
@@ -103,7 +106,7 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/suvajit-sen-4a843533b/"
+          href=" https://www.linkedin.com/in/tamanna-khan-lubna-9678082a3/"
           target="_blank"
         >
           <BsLinkedin />
@@ -111,14 +114,14 @@ export default function Intro() {
 
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.instagram.com/vfx.suvajit/"
+          href="https://www.instagram.com/tamannakhanlubna/?next=%2F&hl=en"
           target="_blank"
         >
           <BiLogoInstagramAlt />
         </a>
         <a
           className="bg-gray-900 p-4 text-white flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.youtube.com/@SuvajitHindiGaming"
+          href=" https://www.youtube.com/channel/UCOAAmp9Ayl4i6qbn6g3yJtg"
           target="_blank"
         >
           <BsYoutube />
